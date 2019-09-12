@@ -297,4 +297,74 @@ a.nav-link:hover{
     font-size: 16px;
     color: #777;
 }
+#contact{
+    background: url('images/contact.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 180px 0;
+}
+.contact-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact-top p{
+    color: #777;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+#name, #email, #subject{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+textarea{
+    width: 90%;
+    height: 203px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+.golden-form-element{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#footer{
+    padding: 40px 0;
+
+}
+#footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 40px;
+}
+.company-social-icons{
+    list-style-type: none;
+}
+.company-social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #fff;
+}
+.company-social-icon .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #000;
+    line-height: 40px;
+}
 
