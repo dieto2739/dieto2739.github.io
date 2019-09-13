@@ -80,8 +80,23 @@ a.nav-link{
 a.nav-link:hover{
     color: #fed136 !important;
 }
+#menu{
+    border-radius: 3px;
+}
+.transparent{
+    background: #000;
+    opacity: 0.5;
+    color: #000;
+}
+
+
 #carousel{
-    background: #555555;
+    background: #000;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 3%;
 }
 #carousel .carousel-caption{
     color: #000;
