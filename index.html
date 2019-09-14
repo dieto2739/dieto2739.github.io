@@ -25,7 +25,7 @@
     <section id="cover">
       <div class="container">
         <div class="row">
-          <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+          <nav class="navbar navbar-expand-sm fixed-top navbar-light" id="menu">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Golden website"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,27 +33,33 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav" id="menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#cover">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="#services">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#aboutUs">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT</a>
-                    </li>
+                      <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                  <nav aria-label="breadcrumb justify-content-end">
+                      <ol class="breadcrumb justify-content-end">
+                        <li class="breadcrumb-item active" aria-current="page"><a href="Login/index.html">Login</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="#">Sign Up</a></li>
+                      </ol>
+                  </nav>
                 </ul>
               </div>
             </nav>
           </div>
+          
 
           <div class="row text-center ">
-
             <div class="col-sm-12">
               <h1>Welcome the Our Studio!</h1>
             </div>
@@ -61,7 +67,7 @@
               <h2>IT'S NICE TO MEET YOU!</h2>
             </div>
             <div class="col-sm-12">
-              <a href="#"><button type="button" class="btn btn-primary btn-lg">TELL ME MORE</button></a>
+              <a href="#carousel"><button type="button" class="btn btn-primary btn-lg">TELL ME MORE</button></a>
             </div>
           </div>
       </div>
@@ -112,14 +118,14 @@
 
 
     <section id="services">
-      <div class="container" data-aos="zoom-in" data-aos-duration="1500">
-        <div class="services-top text-center">
+      <div class="container">
+        <div class="services-top text-center"  data-aos="fade-down" data-aos-duration="1500">
           <h3>SERVICES</h3>
           <p>Proin iaculis purus consequat sem cure.</p>
         </div>
         <div class="services-content text-center">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-right" data-aos-duration="1500">
               <div class="item-circle">
                   <i class="fas fa-shopping-basket fa-3x"></i>             
                 </div>
@@ -128,7 +134,7 @@
               <p>Proin bu ürünümüz ile helaveela kommerce hellav ednejfnefle  ekfk</p>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-4"  data-aos="fade-up" data-aos-duration="1500">
                 <div class="item-circle">
                     <i class="fas fa-desktop fa-3x"></i>            
                   </div>
@@ -136,7 +142,7 @@
                 <h4>Responsive Web</h4>
                 <p>Proin bu ürünümüz ile helaveela kommerce hellav ednejfnefle  ekfk</p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4"  data-aos="fade-left" data-aos-duration="1500">
                   <div class="item-circle">
                       <i class="fas fa-lock fa-3x"></i>             
                     </div>
