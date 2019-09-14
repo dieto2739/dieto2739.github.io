@@ -34,7 +34,8 @@ body,
     -moz-background-size: cover;
     -o-background-size: cover;
     padding-top: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 1090px;
+    /*padding top 90 bottom 30 normalde*/
 }
 #email,#password{
     height: 50px;
