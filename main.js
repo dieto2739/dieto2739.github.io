@@ -6,9 +6,9 @@ $(document).scroll(function() {
             console.log(scrollTop);
 
           if (scrollTop >= 2000 ) {
-              $('#menu').addClass("transparent");
+              $('#menu').addClass("change-fix-top");
           }
           else{
-              $('#menu').removeClass("transparent");
+              $('#menu').removeClass("change-fix-top");
           }
   });
